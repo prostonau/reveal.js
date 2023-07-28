@@ -8,6 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/my.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
 
 		<!-- Theme used for syntax highlighted code -->
@@ -17,11 +18,98 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<section>Slide 1.1</section>
-					<section>Slide 1.2</section>
-				</section>				
-				<section>Slide 2</section>
-				<section>Slide 3</section>
+					<section><h1>CSS Grid Layout</h1></section>
+					<section>28.07.2023<br>
+						<p>Kamenshchikov Andrey</p>
+					</section>
+					<section>
+						<p>I would like to note that this presentation was created on the basis of a modern JS library reveal.js!</p>
+					</section>
+				</section>						
+				<section>
+					<h1>Dispay: block</h1>
+					<img src="./img/blcok.png">
+				</section>
+				<section>
+					<h2>Dispay: inline-block</h2>
+					<img src="./img/inline-block.png">
+				</section>	
+				<section>
+					<h1>Dispay: none</h1>
+					<img src="./img/none.png">
+				</section>	
+				<section>
+					<h1>Dispay: flex</h1>
+					<img src="./img/flex.png">
+				</section>	
+				<section>
+					<h1>Dispay: grid</h1>
+					<img src="./img/grid.png">
+				</section>
+				<section>
+					<p>CSS Grid Layout (aka “Grid” or “CSS Grid”), is a <span class="good-color">two-dimensional grid-based layout system</span> that, compared to any web layout system of the past, completely changes the way we design user interfaces. </p>
+				 	<p>CSS has always been used to layout our web pages, but it’s never done a very good job of it. 
+						First, we used tables, then <b class="red-color">floats, positioning and inline-block</b>, but all of these methods were essentially hacks and left out a lot of important functionality (vertical centering, for instance). </p>					
+				</section>		
+				<section>
+					<p><span class="good-color">Flexbox</span> is also a very great layout tool, but its one-directional flow has different use cases — and they actually work together quite well!</p>
+					<p>Grid is the very first CSS module created specifically to solve the <span class="good-color">layout problems</span> we’ve all been hacking our way around for as long as we’ve been making websites.</p>
+				</section>
+				<section>
+					<p>The first comprehensive draft of a grid layout for CSS was created by <span class="good-color">Phil Cupp</span> at Microsoft in 2011</p>	
+					<p>As of <span class="good-color">October 2017</span>, Chrome, Firefox, Safari and Edge all support CSS grid without vendor prefixes</p>
+				</section>
+				<section data-background-color="#301934">
+					<h2>Properties</h2>
+					<h3>and their default values</h3>
+					<h4>(Part 1)</h4>
+					<ol>
+						<li>grid-template-rows: none</li>
+						<li>grid-template-cliumns: none</li>
+						<li>grid-template-areas: none</li>
+						<li>grid-auto-rows (en-US): auto</li>
+						<li>grid-auto-cliumns (en-US): auto</li>
+					</ol>
+				</section>
+				<section data-background-color="#301934">
+					<h2>Properties</h2>
+					<h3>and their default values</h3>
+					<h4>(Part 2)</h4>
+						<ol start="6">
+							<li>grid-auto-flow: row</li>
+							<li>grid-cliumn-gap (en-US): 0</li>
+							<li>grid-row-gap (en-US): 0</li>
+							<li>cliumn-gap: normal</li>
+							<li>row-gap: normal</li>
+						</ol>
+				</section>
+				<section>
+					<h1>Documentation</h1>
+					<p>https://developer.mozilla.org/ru/docs/Web/CSS/grid</p>
+					<p>https://doka.guide/css/grid-guide/</p>
+				</section>
+				<section>
+					<h1>Grid CSS Cheat Sheet</h1>
+					<p>https://tpverstak.ru/grid/</p>
+					<p>https://grid.malven.co/</p>
+				</section>
+				<section>
+					<h1>How is learning fun?</h1>
+					<p>https://cssgridgarden.com/#ru</p>
+					<p>https://codingfantasy.com/games/css-grid-attack</p>
+					<img src="./img/grid-pay.png">				
+				</section>
+				<section>
+					<h1>Flex or Grid</h1>
+					<p>https://flexboxfroggy.com/#ru</p>						
+				</section>
+				<section>
+					<h1>Conclustion</h1>
+					<p><span class="good-color">CSS grids</span> are better to know even if you are not a professional frontend developer.</p>	
+					<p>Ideal for positioning on two axes. For example, when we want to show  goods of an online store in a grid structure.</p>
+					<p>Where Flex can be used, It is better to use <span class="good-color">Flex</span>)</p>				
+				</section>
+
 			</div>
 		</div>
 
